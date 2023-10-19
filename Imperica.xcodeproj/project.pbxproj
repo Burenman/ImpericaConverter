@@ -14,6 +14,9 @@
 		7731F9F82AE1658F000A4CFC /* ImpericaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731F9F72AE1658F000A4CFC /* ImpericaTests.swift */; };
 		7731FA022AE1658F000A4CFC /* ImpericaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA012AE1658F000A4CFC /* ImpericaUITests.swift */; };
 		7731FA042AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA032AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift */; };
+		7731FA112AE165B8000A4CFC /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA102AE165B7000A4CFC /* ConverterViewModel.swift */; };
+		7731FA132AE165E1000A4CFC /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA122AE165E1000A4CFC /* ConversionModel.swift */; };
+		778E69882AE1D3C900B82B1F /* ColorSet .swift in Sources */ = {isa = PBXBuildFile; fileRef = 778E69872AE1D3C900B82B1F /* ColorSet .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7731F9FD2AE1658F000A4CFC /* ImpericaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpericaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7731FA012AE1658F000A4CFC /* ImpericaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaUITests.swift; sourceTree = "<group>"; };
 		7731FA032AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7731FA102AE165B7000A4CFC /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		7731FA122AE165E1000A4CFC /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
+		778E69872AE1D3C900B82B1F /* ColorSet .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorSet .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				7731F9E62AE1658C000A4CFC /* ImpericaApp.swift */,
 				7731F9E82AE1658C000A4CFC /* ContentView.swift */,
+				7731FA102AE165B7000A4CFC /* ConverterViewModel.swift */,
+				7731FA122AE165E1000A4CFC /* ConversionModel.swift */,
+				778E69872AE1D3C900B82B1F /* ColorSet .swift */,
 				7731F9EA2AE1658F000A4CFC /* Assets.xcassets */,
 				7731F9EC2AE1658F000A4CFC /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7731F9E92AE1658C000A4CFC /* ContentView.swift in Sources */,
+				7731FA112AE165B8000A4CFC /* ConverterViewModel.swift in Sources */,
 				7731F9E72AE1658C000A4CFC /* ImpericaApp.swift in Sources */,
+				778E69882AE1D3C900B82B1F /* ColorSet .swift in Sources */,
+				7731FA132AE165E1000A4CFC /* ConversionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
