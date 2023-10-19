@@ -36,7 +36,7 @@ class ConverterViewModel: ObservableObject {
 
     func convertUnits() {
         guard let inputValue = Double(inputValue) else {
-            outputValue = "Invalid input"
+            outputValue = "Waiting for your input"
             return
         }
 

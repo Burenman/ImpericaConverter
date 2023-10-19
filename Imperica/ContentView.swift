@@ -40,9 +40,9 @@ struct ContentView: View {
                                                 viewModel.convertUnits()
                                             }
                                         })
-                                        .font(.title)
+                                        .font(.system(size:35, weight: .medium))
                                         .foregroundColor(.white)
-                                        .padding()
+                                        
                                         .keyboardType(.decimalPad)
                                         .multilineTextAlignment(.center)
                                         .onChange(of: viewModel.inputValue) { value in
@@ -50,9 +50,12 @@ struct ContentView: View {
                                         }
                                         
                                         Text(viewModel.inputUnitLabel)
+                                            .font(.title2)
                                             .foregroundColor(.white)
+                                            
                                         
                                     }
+                                        .padding()
                                 )
                                 .onTapGesture {
                                     UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
@@ -68,7 +71,7 @@ struct ContentView: View {
                                 viewModel.isImperialSystem.toggle()
                                 viewModel.convertUnits()
                                 withAnimation {
-                                    rotationAngle -= 180
+                                     rotationAngle -= 180
                                 }
                             }) {
                                 Image(systemName: "arrow.up.arrow.down.circle")
@@ -103,10 +106,11 @@ struct ContentView: View {
                             .overlay(
                                 VStack {
                                     Text(viewModel.outputValue)
-                                        .font(.title)
+                                        .font(.system(size:35, weight: .medium))
                                         .foregroundColor(.white)
                                         .padding()
                                     Text(viewModel.outputUnitLabel)
+                                        .font(.title2)
                                         .foregroundColor(.white)
                                 }
                             )
@@ -120,16 +124,11 @@ struct ContentView: View {
                             )
                         
                         
-                        Button("Convert", action: viewModel.convertUnits)
-                            .padding()
-                            .frame(width: 250, height: 50)
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(15)
+                       
                     }
                     .padding()
 //                    .navigationTitle("Let's Convert")
-                    
+                    .preferredColorScheme(isDarkMode ? .dark : .light)
                     .toolbar {
                         ToolbarItem(placement: .navigationBarLeading) {
                             Text("Let's Convert")
@@ -137,13 +136,10 @@ struct ContentView: View {
                         }
                         ToolbarItem(placement: .navigationBarTrailing) {
                             Button(action: {isDarkMode.toggle()
-                                if isDarkMode {
-                                    UIApplication.shared.windows.first?.overrideUserInterfaceStyle = .dark
-                                } else {
-                                    UIApplication.shared.windows.first?.overrideUserInterfaceStyle = .light
-                                }
-                            }) {
+//                                UIApplication.shared.windows.first?.overrideUserInterfaceStyle = isDarkMode ? .dark : .light
+                                                     }) {
                                 Image(systemName: isDarkMode == true ? "sun.max.fill" : "moon.fill")
+                                    .foregroundColor(isDarkMode ? .yellow : .blue)
                             }
                         }
                 }
@@ -164,6 +160,13 @@ struct ContentView: View {
 }
 
 
+
+//Button("Convert", action: viewModel.convertUnits)
+//    .padding()
+//    .frame(width: 250, height: 50)
+//    .background(Color.blue)
+//    .foregroundColor(.white)
+//    .cornerRadius(15)
 
 
 //Picker("Select Conversion Type", selection: $viewModel.selectedUnitPair) {
