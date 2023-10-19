@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7731F9E72AE1658C000A4CFC /* ImpericaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731F9E62AE1658C000A4CFC /* ImpericaApp.swift */; };
+		7731F9E92AE1658C000A4CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731F9E82AE1658C000A4CFC /* ContentView.swift */; };
+		7731F9EB2AE1658F000A4CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7731F9EA2AE1658F000A4CFC /* Assets.xcassets */; };
+		7731F9EE2AE1658F000A4CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7731F9ED2AE1658F000A4CFC /* Preview Assets.xcassets */; };
+		7731F9F82AE1658F000A4CFC /* ImpericaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731F9F72AE1658F000A4CFC /* ImpericaTests.swift */; };
+		7731FA022AE1658F000A4CFC /* ImpericaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA012AE1658F000A4CFC /* ImpericaUITests.swift */; };
+		7731FA042AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7731FA032AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7731F9F42AE1658F000A4CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7731F9DB2AE1658C000A4CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7731F9E22AE1658C000A4CFC;
+			remoteInfo = Imperica;
+		};
+		7731F9FE2AE1658F000A4CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7731F9DB2AE1658C000A4CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7731F9E22AE1658C000A4CFC;
+			remoteInfo = Imperica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7731F9E32AE1658C000A4CFC /* Imperica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imperica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731F9E62AE1658C000A4CFC /* ImpericaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaApp.swift; sourceTree = "<group>"; };
+		7731F9E82AE1658C000A4CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7731F9EA2AE1658F000A4CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7731F9ED2AE1658F000A4CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7731F9F32AE1658F000A4CFC /* ImpericaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpericaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731F9F72AE1658F000A4CFC /* ImpericaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaTests.swift; sourceTree = "<group>"; };
+		7731F9FD2AE1658F000A4CFC /* ImpericaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpericaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7731FA012AE1658F000A4CFC /* ImpericaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaUITests.swift; sourceTree = "<group>"; };
+		7731FA032AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpericaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7731F9E02AE1658C000A4CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9F02AE1658F000A4CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9FA2AE1658F000A4CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7731F9DA2AE1658C000A4CFC = {
+			isa = PBXGroup;
+			children = (
+				7731F9E52AE1658C000A4CFC /* Imperica */,
+				7731F9F62AE1658F000A4CFC /* ImpericaTests */,
+				7731FA002AE1658F000A4CFC /* ImpericaUITests */,
+				7731F9E42AE1658C000A4CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7731F9E42AE1658C000A4CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7731F9E32AE1658C000A4CFC /* Imperica.app */,
+				7731F9F32AE1658F000A4CFC /* ImpericaTests.xctest */,
+				7731F9FD2AE1658F000A4CFC /* ImpericaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7731F9E52AE1658C000A4CFC /* Imperica */ = {
+			isa = PBXGroup;
+			children = (
+				7731F9E62AE1658C000A4CFC /* ImpericaApp.swift */,
+				7731F9E82AE1658C000A4CFC /* ContentView.swift */,
+				7731F9EA2AE1658F000A4CFC /* Assets.xcassets */,
+				7731F9EC2AE1658F000A4CFC /* Preview Content */,
+			);
+			path = Imperica;
+			sourceTree = "<group>";
+		};
+		7731F9EC2AE1658F000A4CFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7731F9ED2AE1658F000A4CFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7731F9F62AE1658F000A4CFC /* ImpericaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7731F9F72AE1658F000A4CFC /* ImpericaTests.swift */,
+			);
+			path = ImpericaTests;
+			sourceTree = "<group>";
+		};
+		7731FA002AE1658F000A4CFC /* ImpericaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7731FA012AE1658F000A4CFC /* ImpericaUITests.swift */,
+				7731FA032AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift */,
+			);
+			path = ImpericaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7731F9E22AE1658C000A4CFC /* Imperica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FA072AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "Imperica" */;
+			buildPhases = (
+				7731F9DF2AE1658C000A4CFC /* Sources */,
+				7731F9E02AE1658C000A4CFC /* Frameworks */,
+				7731F9E12AE1658C000A4CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imperica;
+			productName = Imperica;
+			productReference = 7731F9E32AE1658C000A4CFC /* Imperica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7731F9F22AE1658F000A4CFC /* ImpericaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FA0A2AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "ImpericaTests" */;
+			buildPhases = (
+				7731F9EF2AE1658F000A4CFC /* Sources */,
+				7731F9F02AE1658F000A4CFC /* Frameworks */,
+				7731F9F12AE1658F000A4CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7731F9F52AE1658F000A4CFC /* PBXTargetDependency */,
+			);
+			name = ImpericaTests;
+			productName = ImpericaTests;
+			productReference = 7731F9F32AE1658F000A4CFC /* ImpericaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7731F9FC2AE1658F000A4CFC /* ImpericaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7731FA0D2AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "ImpericaUITests" */;
+			buildPhases = (
+				7731F9F92AE1658F000A4CFC /* Sources */,
+				7731F9FA2AE1658F000A4CFC /* Frameworks */,
+				7731F9FB2AE1658F000A4CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7731F9FF2AE1658F000A4CFC /* PBXTargetDependency */,
+			);
+			name = ImpericaUITests;
+			productName = ImpericaUITests;
+			productReference = 7731F9FD2AE1658F000A4CFC /* ImpericaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7731F9DB2AE1658C000A4CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7731F9E22AE1658C000A4CFC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					7731F9F22AE1658F000A4CFC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7731F9E22AE1658C000A4CFC;
+					};
+					7731F9FC2AE1658F000A4CFC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7731F9E22AE1658C000A4CFC;
+					};
+				};
+			};
+			buildConfigurationList = 7731F9DE2AE1658C000A4CFC /* Build configuration list for PBXProject "Imperica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7731F9DA2AE1658C000A4CFC;
+			productRefGroup = 7731F9E42AE1658C000A4CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7731F9E22AE1658C000A4CFC /* Imperica */,
+				7731F9F22AE1658F000A4CFC /* ImpericaTests */,
+				7731F9FC2AE1658F000A4CFC /* ImpericaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7731F9E12AE1658C000A4CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731F9EE2AE1658F000A4CFC /* Preview Assets.xcassets in Resources */,
+				7731F9EB2AE1658F000A4CFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9F12AE1658F000A4CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9FB2AE1658F000A4CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7731F9DF2AE1658C000A4CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731F9E92AE1658C000A4CFC /* ContentView.swift in Sources */,
+				7731F9E72AE1658C000A4CFC /* ImpericaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9EF2AE1658F000A4CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731F9F82AE1658F000A4CFC /* ImpericaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7731F9F92AE1658F000A4CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7731FA042AE1658F000A4CFC /* ImpericaUITestsLaunchTests.swift in Sources */,
+				7731FA022AE1658F000A4CFC /* ImpericaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7731F9F52AE1658F000A4CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7731F9E22AE1658C000A4CFC /* Imperica */;
+			targetProxy = 7731F9F42AE1658F000A4CFC /* PBXContainerItemProxy */;
+		};
+		7731F9FF2AE1658F000A4CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7731F9E22AE1658C000A4CFC /* Imperica */;
+			targetProxy = 7731F9FE2AE1658F000A4CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7731FA052AE1658F000A4CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7731FA062AE1658F000A4CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7731FA082AE1658F000A4CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imperica/Preview Content\"";
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.Imperica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7731FA092AE1658F000A4CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imperica/Preview Content\"";
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.Imperica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7731FA0B2AE1658F000A4CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.ImpericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imperica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Imperica";
+			};
+			name = Debug;
+		};
+		7731FA0C2AE1658F000A4CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.ImpericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imperica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Imperica";
+			};
+			name = Release;
+		};
+		7731FA0E2AE1658F000A4CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.ImpericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Imperica;
+			};
+			name = Debug;
+		};
+		7731FA0F2AE1658F000A4CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9ZLU4924R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Origin8.ImpericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Imperica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7731F9DE2AE1658C000A4CFC /* Build configuration list for PBXProject "Imperica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FA052AE1658F000A4CFC /* Debug */,
+				7731FA062AE1658F000A4CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FA072AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "Imperica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FA082AE1658F000A4CFC /* Debug */,
+				7731FA092AE1658F000A4CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FA0A2AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "ImpericaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FA0B2AE1658F000A4CFC /* Debug */,
+				7731FA0C2AE1658F000A4CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7731FA0D2AE1658F000A4CFC /* Build configuration list for PBXNativeTarget "ImpericaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7731FA0E2AE1658F000A4CFC /* Debug */,
+				7731FA0F2AE1658F000A4CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7731F9DB2AE1658C000A4CFC /* Project object */;
+}
