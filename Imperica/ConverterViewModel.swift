@@ -36,13 +36,19 @@ class ConverterViewModel: ObservableObject {
 
     func convertUnits() {
         guard let inputValue = Double(inputValue) else {
-            outputValue = "Waiting for your input"
+            outputValue = "Waiting for input"
             return
         }
 
         let convertedValue = ConversionModel.convert(value: inputValue, from: inputUnitType, to: outputUnitType)
         outputValue = String(format: "%.2f", convertedValue)
     }
+    
+    func performHapticFeedback() {
+           let generator = UIImpactFeedbackGenerator(style: .light)
+           generator.prepare()
+           generator.impactOccurred()
+       }
 }
 
 
