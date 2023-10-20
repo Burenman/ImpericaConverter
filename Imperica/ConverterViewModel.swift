@@ -48,13 +48,4 @@ class ConverterViewModel: ObservableObject {
 
   
        
-        
-
-        
-//             let convertedValue = ConversionModel.convert(value: inputValue, from: unitTypes[unitIndex], to: isMetricSystem ? unitTypes[selectedUnitsIndex + 3] : unitTypes[selectedUnitsIndex])
-//             outputValue = String(format: "%.2f", convertedValue)
-        
-//        let convertedValue = ConversionModel.convert(value: inputValue, from: fromUnitType, to: toUnitType)
-//        outputValue = String(format: "%.2f", convertedValue)
     
-

@@ -108,11 +108,11 @@ struct ContentView: View {
                                     Text(viewModel.outputValue)
                                         .font(.system(size:35, weight: .medium))
                                         .foregroundColor(.white)
-                                        .padding()
                                     Text(viewModel.outputUnitLabel)
                                         .font(.title2)
                                         .foregroundColor(.white)
                                 }
+                                    .padding()
                             )
                           
                             .onTapGesture {
@@ -127,7 +127,7 @@ struct ContentView: View {
                        
                     }
                     .padding()
-//                    .navigationTitle("Let's Convert")
+
                     .preferredColorScheme(isDarkMode ? .dark : .light)
                     .toolbar {
                         ToolbarItem(placement: .navigationBarLeading) {
@@ -136,8 +136,7 @@ struct ContentView: View {
                         }
                         ToolbarItem(placement: .navigationBarTrailing) {
                             Button(action: {isDarkMode.toggle()
-//                                UIApplication.shared.windows.first?.overrideUserInterfaceStyle = isDarkMode ? .dark : .light
-                                                     }) {
+                                     }) {
                                 Image(systemName: isDarkMode == true ? "sun.max.fill" : "moon.fill")
                                     .foregroundColor(isDarkMode ? .yellow : .blue)
                             }
@@ -158,40 +157,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
-
-
-//Button("Convert", action: viewModel.convertUnits)
-//    .padding()
-//    .frame(width: 250, height: 50)
-//    .background(Color.blue)
-//    .foregroundColor(.white)
-//    .cornerRadius(15)
-
-
-//Picker("Select Conversion Type", selection: $viewModel.selectedUnitPair) {
-//    ForEach(Array(unitTypeLabels.keys), id: \.self) { pair in
-//        Text(unitTypeLabels[pair] ?? "Unknown")
-//    }
-//}
-//.pickerStyle(WheelPickerStyle())
-
-//                    Picker("Select Conversion Type", selection: $viewModel.selectedUnitPair) {
-//                        ForEach([UnitPair(from: .lengthUS, to: .lengthMetric),
-//                                 UnitPair(from: .weightUS, to: .weightMetric),
-//                                 UnitPair(from: .temperatureFahrenheit, to: .temperatureCelsius)], id: \.self) { pair in
-//                            switch pair {
-//                            case UnitPair(from: .lengthUS, to: .lengthMetric):
-//                                Text("Length")
-//                            case UnitPair(from: .weightUS, to: .weightMetric):
-//                                Text("Weight")
-//                            case UnitPair(from: .temperatureFahrenheit, to: .temperatureCelsius):
-//                                Text("Temperature")
-//                            default:
-//                                Text("Unknown")
-//                            }
-//                        }
-//                    }
-//                    .pickerStyle(WheelPickerStyle())
-//                    .padding(.horizontal)
-

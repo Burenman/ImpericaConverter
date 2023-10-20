@@ -16,6 +16,7 @@ enum UnitType {
     case milesPerHour, kilometersPerHour
     case miles, kilometers
     case gallons, liters
+    case heightFt, heightCm
     
     
 }
@@ -32,7 +33,8 @@ let unitTypeLabels: [UnitPair: String] = [
     UnitPair(from: .squareFeet, to: .squareMeters): "Area",
     UnitPair(from: .milesPerHour, to: .kilometersPerHour): "Speed",
     UnitPair(from: .miles , to: .kilometers): "Distance",
-    UnitPair(from: .gallons, to: .liters): "Volume"
+    UnitPair(from: .gallons, to: .liters): "Volume",
+    UnitPair(from: .heightFt, to: .heightCm): "Height"
 ]
 
 
@@ -81,7 +83,13 @@ struct ConversionModel {
         case (.liters, .gallons):
             // Convert liters to gallons: 1 liter ≈ 0.264172 gallons
             return value * 0.264172
-            
+        case (.heightFt, .heightCm):
+            // Convert feet to centimeters: 1 foot ≈ 30.48 centimeters
+            return value * 30.48
+        case (.heightCm, .heightFt):
+            // Convert centimeters to feet: 1 cm ≈ 0.0328084 feet
+            return value * 0.0328084
+        
         default:
             // Handle additional conversion cases if needed
             return value
@@ -91,33 +99,37 @@ struct ConversionModel {
     static func unitLabel(for unitType: UnitType) -> String {
         switch unitType {
         case .lengthUS:
-            return "inches"
+            return "Inches"
         case .lengthMetric:
-            return "cm"
+            return "Cm"
         case .weightUS:
-            return "lbs"
+            return "Lbs"
         case .weightMetric:
-            return "kg"
+            return "Kg"
         case .temperatureFahrenheit:
             return "°F"
         case .temperatureCelsius:
             return "°C"
         case .squareFeet:
-            return "sq ft"
+            return "Sq Ft"
         case .squareMeters:
-            return "sq m"
+            return "Sq M"
         case .milesPerHour:
-            return "mph"
+            return "Mp/h"
         case .kilometersPerHour:
-            return "km/h"
+            return "Km/h"
         case .miles:
-            return "mi"
+            return "Mi"
         case .kilometers:
-            return "km"
+            return "Km"
         case .gallons:
-            return "gal"
+            return "Gal"
         case .liters:
             return "L"
+        case .heightFt:
+            return "Ft"
+        case .heightCm:
+            return "Cm"
         }
         
     }
